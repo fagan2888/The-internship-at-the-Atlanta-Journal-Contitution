@@ -20,10 +20,24 @@ a:visited{
 	display: none;
 }
 
+#internmug{
+	width:500px;
+	float:left;
+	height:406px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+#internwork{
+	width:500px;
+	float:right;
+	height:406px;	
+	margin-bottom: 50px;
+}
+
 .firstimage{
 	    width: 100%;
 	    height: 110%;
-		background-image: url("photos/image004.jpg"); 
+		background-image: url("photos/Group_pic.JPG"); 
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -139,6 +153,19 @@ opacity: 1;
 	width: 60%;
 	text-shadow: 0 2px 2px rgba(0,0,0,2);
 	color:white;
+}
+
+#internshipintro{
+	width: 75%;
+	margin-left: 15%;
+	margin-right: 20%;
+
+}
+
+#internpersonal{
+width: 75%;
+margin-left: 15%;
+height:500px;
 }
 
 .author{
@@ -309,12 +336,12 @@ opacity: 1;
 	margin-bottom: 35px;
 }
 
-video{
-	width: 75%;
-	margin-left: 150px;
-	margin-right: 50px;
-	margin-top: 30px;
-	float: left;
+#video{
+	width: 79%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	
 	margin-bottom: 30px;
 }
 
@@ -786,4 +813,6 @@ video{
 
 }
 
+
 }
+
