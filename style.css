@@ -179,7 +179,7 @@ height:500px;
 
 
 #video{
-	width: 79%;
+	width: 800px;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 50px;
@@ -190,19 +190,11 @@ height:500px;
 
 
 
-@media (max-width: 480px){
+@media (max-width: 500px){
 
 .firstimage{
-	    width: 100%;
-	    height:90%;
-		background-image: url("photos/image004.jpg"); 
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		top: 0px;
-	    left: 0px;
-	    right: 0px;
+
+	    display:none;
 }
 
 #facebook1 img{
@@ -380,11 +372,13 @@ ul{
 }
 
 #internmug{
-	width:100%;
+	width:300px;
 	float:left;
-	display: none;
-	
-	
+
+}
+
+.firstimage{
+    display: none;
 }
 #internwork{
 	width:100%;
